@@ -1,0 +1,19 @@
+Oct 16 05:31:43 ubuntu sudo[5033]: zahraakram40 : TTY=/dev/pts/0 ; PWD=/home/zahraakram40/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+Oct 16 05:31:43 ubuntu adduser[5037]: Adding user `lab5user' ...
+Oct 16 05:31:43 ubuntu adduser[5037]: Adding new group `lab5user' (1001) ...
+Oct 16 05:31:43 ubuntu groupadd[5041]: group added to /etc/group: name=lab5user, GID=1001
+Oct 16 05:31:43 ubuntu groupadd[5041]: group added to /etc/gshadow: name=lab5user
+Oct 16 05:31:43 ubuntu groupadd[5041]: new group: name=lab5user, GID=1001
+Oct 16 05:31:43 ubuntu adduser[5037]: Adding new user `lab5user' (1001) with group `lab5user (1001)' ...
+Oct 16 05:31:43 ubuntu useradd[5046]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+Oct 16 05:31:43 ubuntu adduser[5037]: Creating home directory `/home/lab5user' ...
+Oct 16 05:31:49 ubuntu passwd[5057]: pam_unix(passwd:chauthtok): password changed for lab5user
+Oct 16 05:32:01 ubuntu chfn[5061]: changed user 'lab5user' information
+Oct 16 05:32:04 ubuntu adduser[5037]: Adding new user `lab5user' to supplemental / extra groups `users' ...
+Oct 16 05:32:04 ubuntu adduser[5037]: Adding user `lab5user' to group `users' ...
+Oct 16 05:32:04 ubuntu gpasswd[5069]: members of group users set by root to zahraakram40,lab5user
+Oct 16 05:32:45 ubuntu su[5096]: (to lab5user) zahraakram40 on pts/0
+Oct 16 05:32:45 ubuntu su[5096]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by zahraakram40(uid=1000)
+Oct 16 05:34:47 ubuntu su[5096]: pam_unix(su-l:session): session closed for user lab5user
+Oct 16 05:35:09 ubuntu sudo[5175]: zahraakram40 : TTY=/dev/pts/0 ; PWD=/home/zahraakram40/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+Oct 16 05:36:15 ubuntu sudo[5220]: zahraakram40 : TTY=/dev/pts/0 ; PWD=/home/zahraakram40/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
