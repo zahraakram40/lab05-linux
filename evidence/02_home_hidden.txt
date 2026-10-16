@@ -1,0 +1,15 @@
+total 56
+drwxr-x--- 9 zahraakram40 zahraakram40 4096 Oct 16 04:23 .
+drwxr-xr-x 3 root         root         4096 Sep 16 14:48 ..
+-rw------- 1 zahraakram40 zahraakram40  566 Oct 10 09:07 .bash_history
+-rw-r--r-- 1 zahraakram40 zahraakram40  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 zahraakram40 zahraakram40 3771 Feb 13  2026 .bashrc
+drwx------ 2 zahraakram40 zahraakram40 4096 Sep 16 16:35 .cache
+-rw-rw-r-- 1 zahraakram40 zahraakram40  185 Oct 10 11:44 .gitconfig
+drwx------ 3 zahraakram40 zahraakram40 4096 Oct 10 10:05 .local
+-rw-r--r-- 1 zahraakram40 zahraakram40  807 Feb 13  2026 .profile
+drwx------ 2 zahraakram40 zahraakram40 4096 Oct 16 04:23 .ssh
+drwxrwxr-x 3 zahraakram40 zahraakram40 4096 Oct 10 11:55 Assignment01
+drwxrwxr-x 3 zahraakram40 zahraakram40 4096 Oct 10 09:11 Gitea
+drwxrwxr-x 5 zahraakram40 zahraakram40 4096 Oct 16 04:28 lab05-linux
+drwxrwxr-x 2 zahraakram40 zahraakram40 4096 Sep 25 06:33 mylab
